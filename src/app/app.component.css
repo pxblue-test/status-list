@@ -1,0 +1,9 @@
+.selected{
+    border-left-color: red;
+}
+mat-nav-list{
+  padding-top:0px;
+}
+mat-list-item {
+    border-left: 8px solid transparent;
+}

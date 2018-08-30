@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 68.0.3440 (Mac OS X 10.13.4)" package="" timestamp="2018-08-24T02:29:07" id="0" hostname="shivanis-MacBook-Pro.local" tests="3" errors="0" failures="0" time="1.398">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.573" classname="AppComponent"/>
+  <testcase name="AppComponent createItem" time="0.418" classname="AppComponent"/>
+  <testcase name="AppComponent createRandomItem" time="0.407" classname="AppComponent"/>
+  <system-out>
+    <![CDATA[Chrome 68.0.3440 (Mac OS X 10.13.4) ERROR
+  Disconnectedundefined
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
