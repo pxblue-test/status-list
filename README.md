@@ -1,4 +1,4 @@
-# angular-material-simple-list
+# angular-material-status-list
 [![CircleCI](https://circleci.com/gh/pxblue/status-list.svg?style=shield)](https://circleci.com/gh/pxblue/status-list)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
