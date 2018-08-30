@@ -1,0 +1,11 @@
+
+.list{
+  border-left: 8px solid transparent !important;
+}
+.list.alarm{
+/* background-color: #cccccc; */
+border-left-color: red !important;
+}
+body{
+margin: 0;
+}
