@@ -54,7 +54,7 @@ class StatusList extends React.Component {
           {
             this.state.list.map((item, i) => {
               return (
-                <ListItem key={'item_' + i} className={item.status==="alarm" ? 'alarm list' : 'list'} onClick={() => this.onSelected(i)}>
+                <ListItem key={'item_' + i} className={item.status==="alarm" ? 'alarm list' : 'list'} >
                   <Avatar>
                     <WorkIcon />
                   </Avatar>
