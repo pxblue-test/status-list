@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/simple-list
+    working_directory: ~/status-list
     docker:
       - image: circleci/node:8.11-browsers
     steps:
@@ -21,7 +21,7 @@ jobs:
           command: yarn ng build --prod --aot --no-progress
       - run:
           name: Test Angular
-          command: yarn e2e
+          command: ng e2e
       - store_artifacts:
           path: test-results/karma/results.xml
           prefix: tests
