@@ -48,7 +48,7 @@ import {AppComponent} from './app.component';
 
 @NgModule({
   exports: [
-    //CDK
+    // CDK
     A11yModule,
     BidiModule,
     ObserversModule,

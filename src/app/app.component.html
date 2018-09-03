@@ -1,9 +1,9 @@
 <mat-toolbar color="primary">
-	<div>Basic list</div>
+	<div>Status list</div>
 	<div fxFlex style="margin:auto;"></div>
 </mat-toolbar>
-<mat-nav-list class="alert" *ngIf="data.length > 0">
-	<mat-list-item *ngFor="let i of data; let index = index;" [ngClass]="{'selected': i.selected}"> 
+<mat-list *ngIf="data.length > 0">
+	<mat-list-item *ngFor="let i of data; let index = index;" [ngClass]="{'alarm': i.status == 'alarm'}"> 
 
 		<mat-icon mat-list-icon>home</mat-icon>
 		<div mat-line>
@@ -14,4 +14,4 @@
 		</p>
 
 	</mat-list-item>
-</mat-nav-list>
+</mat-list>

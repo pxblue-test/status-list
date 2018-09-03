@@ -1,29 +1,28 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { VERSION } from '@angular/material';
 
-
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: 'app.component.html',
   styleUrls: ['./app.component.css']
+ 
 })
-export class AppComponent  {
+export class AppComponent implements OnInit {
 
   version = VERSION;
   data: any[] = [];
-  createItem(index: number, random_boolean) {
-    return { id: index, name: `Item ${index}`, details: `item ${index} details`,selected : random_boolean };
+  createItem(index: number, randomStatus) {
+    return { id: index, name: `Item ${index}`, details: `Status: ${randomStatus}`, status : randomStatus };
   }
   createRandomItem() {
-    const int: number = parseInt((Math.random() * 100) + '', 10);
-    const random_boolean  = Math.random() >= 0.5;
-    return this.createItem(int, random_boolean);
-  }
+    const int = parseInt((Math.random() * 100) + '', 10);
+    const randomStatus  = Math.random() >= 0.3 ? "normal" : "alarm";
+    return this.createItem(int, randomStatus);
+  } 
   ngOnInit(): void {
     for (let i = 1; i <= 10; i++) {
       this.data.push(this.createRandomItem());
     }
   } 
 
-  
 }
