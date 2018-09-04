@@ -2,8 +2,9 @@
 	<div>Status list</div>
 	<div fxFlex style="margin:auto;"></div>
 </mat-toolbar>
-<mat-list *ngIf="data.length > 0">
-	<mat-list-item *ngFor="let i of data; let index = index;" [ngClass]="{'alarm': i.status == 'alarm'}"> 
+<mat-list class="alert" *ngIf="data.length > 0">
+	<mat-list-item *ngFor="let i of data; let index = index;" 
+  [class.alarm]="setAlarm(i.status)">  
 
 		<mat-icon mat-list-icon>home</mat-icon>
 		<div mat-line>

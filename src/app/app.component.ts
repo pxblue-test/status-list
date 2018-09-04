@@ -25,4 +25,7 @@ export class AppComponent implements OnInit {
     }
   } 
 
+  setAlarm(status) {
+    return status == 'alarm' ? true : false;
+  }
 }
