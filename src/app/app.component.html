@@ -2,7 +2,7 @@
 	<div>Status list</div>
 	<div fxFlex style="margin:auto;"></div>
 </mat-toolbar>
-<mat-list class="alert" *ngIf="data.length > 0">
+<mat-nav-list class="alert" *ngIf="data.length > 0">
 	<mat-list-item *ngFor="let i of data; let index = index;" 
   [class.alarm]="setAlarm(i.status)">  
 
@@ -15,4 +15,4 @@
 		</p>
 
 	</mat-list-item>
-</mat-list>
+</mat-nav-list>
