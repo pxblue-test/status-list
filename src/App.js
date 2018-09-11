@@ -43,7 +43,7 @@ class StatusList extends React.Component {
             <Typography variant="title" color="inherit">
               Status List
             </Typography>
-            <div style={{ flex: '1 1 0px' }} />
+            <div className="div"  />
           </Toolbar>
         </AppBar>
         <List >
