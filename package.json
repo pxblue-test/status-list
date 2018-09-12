@@ -32,6 +32,8 @@
     "karma-istanbul": "^0.0.2",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.3.0",
+    "typeface-open-sans": "^0.0.54",
+    "typeface-roboto-mono": "^0.0.54",
     "webpack": "^4.17.1",
     "zone.js": "~0.8.26"
   },
