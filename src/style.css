@@ -1,11 +1,9 @@
-
-.list{
+body{
+  margin: 0;
+}
+.listItem{
   border-left: 8px solid transparent !important;
 }
-.list.alarm{
-/* background-color: #cccccc; */
-border-left-color: red !important;
-}
-body{
-margin: 0;
+.listItem.alarm{
+  border-left-color: red !important;
 }
