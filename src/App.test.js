@@ -31,7 +31,7 @@ it('puts correct status class on items', () => {
     }
   }
 
-  let listItems = app.find('.list');
+  let listItems = app.find('.listItem');
 
   for(i = 0; i < alarms.length; i++){
     expect(listItems.at(alarms[i]).hasClass('alarm')).toEqual(true);
