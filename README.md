@@ -1,4 +1,4 @@
-# Basic simple-list Example
+# List w/ Status Indicator
 [![CircleCI](https://circleci.com/gh/pxblue/status-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/status-list/tree/react)
 
 This is a sample application showing how to build a basic status-list with status stripe.
