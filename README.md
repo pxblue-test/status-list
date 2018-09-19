@@ -1,4 +1,4 @@
-# Basic Status-list Example
+# List w/ Status Indicator
 
 [![CircleCI](https://circleci.com/gh/pxblue/status-list.svg?style=shield)](https://circleci.com/gh/pxblue/status-list)
 
