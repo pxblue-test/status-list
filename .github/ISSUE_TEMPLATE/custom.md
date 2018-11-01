@@ -1,10 +1,4 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-
----
-
----
 name: Issue Template
 about: "a report to help us improve"
 ---
