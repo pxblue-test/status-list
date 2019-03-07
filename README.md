@@ -25,5 +25,5 @@ yarn start
 ```
 
 All of our code examples can also be found on [Stackblitz](http://www.stackblitz.com/@px-blue), which allows you to make changes to a project and see the updates to the rendered applciation in real-time.
-- [Angular](https://stackblitz.com/edit/pxblue-angular-status-list)
-- [React](https://stackblitz.com/edit/pxblue-react-status-list)
+- [Angular](https://stackblitz.com/edit/pxblue-status-list-angualr)
+- [React](https://stackblitz.com/edit/pxblu-status-list-react)
