@@ -1,25 +1,28 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/status-list
-    docker:
-      - image: circleci/node:8
+    docker: 
+      - image: circleci/node:8.11-browsers
     steps:
       - checkout
       - restore_cache:
-      key: v1-dependency-cache-{{ checksum "package.json"}}
+          key: v1-dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Install Dependencies
           command: yarn install
       - save_cache:
           key: v1-dependency-cache-{{ checksum "package.json" }}
           paths:
-           
+            - ~/.cache
             - ./node_modules
       - run:
           name: Install Dependencies
           command: yarn install
-      - run: yarn test 
+      - run: yarn test
       - run:
-          name: Test React 
-          command: yarn test
+          name: e2e cypress tests
+          command: yarn cytest
+      - store_artifacts:
+          path: cypress/videos
+      - store_artifacts:
+          path: cypress/screenshots
