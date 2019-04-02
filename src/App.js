@@ -46,7 +46,7 @@ class StatusList extends React.Component {
             <div />
           </Toolbar>
         </AppBar>
-        <List >
+        <List style={{padding: 0}}>
           {
             this.state.list.map((item, i) => {
               return (
