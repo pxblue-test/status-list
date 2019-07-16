@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { VERSION } from '@angular/material';
+import { VERSION } from '@angular/material/core';
 
 @Component({
   selector: 'app-root',
