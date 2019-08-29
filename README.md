@@ -1,5 +1,5 @@
 # Status-List Example
-This project demonstrates how to build a basic status-list with status stripe.
+This project demonstrates how to build a basic list with status stripes for list items.
 
 | Framework           | Status       | Live Examples  |
 | ---------------- |--------------|------------------|
