@@ -1,0 +1,7 @@
+{
+  "name": "pxblue-status-list-ionic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
