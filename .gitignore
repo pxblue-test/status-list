@@ -21,7 +21,7 @@
 resources/ios/icon
 resources/ios/splash
 resources/android/icon
-resources/ios/splash
+resources/android/splash
 .sourcemaps/
 .sass-cache/
 .tmp/

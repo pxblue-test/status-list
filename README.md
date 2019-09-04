@@ -1,4 +1,4 @@
-# Status-List Example
+# Status List Example
 This project demonstrates how to build a basic list with status stripes for list items.
 
 | Framework           | Status       | Live Examples  |
