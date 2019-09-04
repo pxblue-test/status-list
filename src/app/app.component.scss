@@ -1,0 +1,14 @@
+@import "~@pxblue/colors/palette.scss";
+
+
+.alarm{
+  border-left: 4px solid;
+  box-sizing: border-box;
+  border-left-color: map-get($pxb-red, 500);
+}
+.alarm .mat-icon{
+  padding-left: 0px;
+}
+.no-margin{
+  margin: 0px
+}

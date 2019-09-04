@@ -1,3 +1,27 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>
+        <div>Status List</div>
+        <div fxFlex style="margin:auto;"></div>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content>
+     <mat-nav-list class="alert" *ngIf="data.length > 0">
+      <mat-list-item *ngFor="let i of data; let index = index;" 
+      [class.alarm]="setAlarm(i.status)">  
+    
+        <mat-icon mat-list-icon>home</mat-icon>
+        <div mat-line>
+          {{ i.name }}
+        </div> 
+        <p mat-line>
+          {{ i.details }}
+        </p>
+    
+      </mat-list-item>
+    </mat-nav-list>
+  </ion-content> 
 </ion-app>
