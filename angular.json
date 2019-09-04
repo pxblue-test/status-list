@@ -33,10 +33,13 @@
             ],
             "styles": [
               {
+                "input": "src/theme/variables.scss"
+              },
+              {
                 "input": "src/global.scss"
               },
               {
-                "input": "node_modules/@pxblue/themes/angular/theme.scss"
+                "input": "./node_modules/@pxblue/themes/angular/theme.scss"
               },
               {
                 "input": "./node_modules/typeface-open-sans"
@@ -131,7 +134,9 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
