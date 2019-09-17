@@ -1,7 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import * as Colors from '@pxblue/colors'
-import { Header, ListItem } from 'react-native-elements';
+import { Header } from 'react-native-elements';
 import StatusList from './components/StatusList';
 
 export default function App() {

@@ -1,7 +1,5 @@
 import React from 'react';
 import { FlatList } from 'react-native';
-import * as Colors from '@pxblue/colors'
-import { Header, ListItem } from 'react-native-elements';
 import StatusListItem from './StatusListItem';
 
 class StatusList extends React.Component {
