@@ -1,6 +1,5 @@
-# [PROJECT NAME] Example
-This project demonstrates how to...[DESCRIPTION]
-
+# Status List Example
+This project demonstrates how to build a basic list with status stripes for list items.
 | Framework           | Status       | Live Examples  |
 | ---------------- |--------------|------------------|
 | Angular | [![CircleCI](https://circleci.com/gh/pxblue/status-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/status-list/tree/angular) | [View on Stackblitz](https://stackblitz.com/github/pxblue/status-list/tree/angular)
