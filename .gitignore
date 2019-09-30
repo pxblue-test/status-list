@@ -18,8 +18,10 @@
 ## Ionic
 .idea/
 .ionic/
-/resources/ios
-/resources/android
+resources/ios/icon
+resources/ios/splash
+resources/android/icon
+resources/android/splash
 .sourcemaps/
 .sass-cache/
 .tmp/
