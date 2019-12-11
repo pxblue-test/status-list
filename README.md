@@ -6,7 +6,7 @@ This project demonstrates how to build a basic list with status stripes for list
 | Angular | [![CircleCI](https://circleci.com/gh/pxblue/status-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/status-list/tree/angular) | [View on Stackblitz](https://stackblitz.com/github/pxblue/status-list/tree/angular)
 | React | [![CircleCI](https://circleci.com/gh/pxblue/status-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/status-list/tree/react) | [View on Code Sandbox](https://codesandbox.io/s/github/pxblue/status-list/tree/react)
 | Ionic | [![CircleCI](https://circleci.com/gh/pxblue/status-list/tree/ionic.svg?style=shield)](https://circleci.com/gh/pxblue/status-list/tree/ionic) | [View on Stackblitz](https://stackblitz.com/github/pxblue/status-list/tree/ionic)
-| React Native | [![CircleCI](https://circleci.com/gh/pxblue/status-list/tree/reactnative.svg?style=shield)](https://circleci.com/gh/pxblue/status-list/tree/reactnative) | [View on Snack](https://snack.expo.io/@git/github.com/pxblue/status-list@reactnative)
+| React Native | [![CircleCI](https://circleci.com/gh/pxblue/status-list/tree/reactnative.svg?style=shield)](https://circleci.com/gh/pxblue/status-list/tree/reactnative) | [View on Snack](https://snack.expo.io/@git/github.com/pxblue/status-list@reactnative?preview=true&platform=ios)
 
 ## Running the Example
 ### Angular
